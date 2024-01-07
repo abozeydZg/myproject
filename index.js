@@ -14,4 +14,4 @@ app.get('/',async (req, res) => {
   res.json(user)
 })
 
-app.listen(process.env.PORT || 3000)
+app.listen(5012, () => console.log('Example app listening on port 5012!'))
